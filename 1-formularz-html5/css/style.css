@@ -1,0 +1,33 @@
+form {
+    background-color: #213b50;
+    width: 50%;
+    color: #fff;
+    padding: 15px;
+}
+form label[for="name"], label[for="surname"], label[for="mail"], label[for="phone"], label[for="city"], label[for="message"] {
+    display: block;
+    padding: 5px;
+}
+form input, select, textarea {
+    background-color: #2b4a64;
+    border: 0.5px dotted transparent;
+    color: white;
+}
+form input:focus, select:focus, textarea:focus {
+    border: 0.5px dotted white;
+    background-color: black;
+    color: white;
+}
+form input[type="submit"] {
+    background-color: red;
+    margin-top: 15px;
+    width: 60px;
+    height: 30px;
+    transition: 0.5s;
+    color: white;
+}
+form input[type="submit"]:hover {
+    color: red;
+    background-color: white;
+    cursor: pointer;
+}
