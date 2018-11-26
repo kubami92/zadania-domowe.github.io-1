@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+#header {
+    background-color: red;
+    text-align: center;
+    padding: 5px;
+}
+
+#section {
+    display: flex;
+    display: row;
+    height: 60vh;
+}
+
+#lewy {
+    text-align: center;
+    background-color: green;
+    flex-basis: 20%;
+    
+}
+
+#srodek {
+    text-align: center;
+    background-color: aqua;
+    flex-basis: 60%;
+    font-size: 24px;
+}
+
+#prawy {
+    text-align: center;
+    background-color: pink;
+    flex-basis: 20%;
+}
+
+#stopka {
+    background-color: violet;
+    text-align: center;
+    padding: 5px;
+}
+
+@media (min-width:769px) and (max-width:992px) {
+    #section {
+        flex-wrap: wrap-reverse;
+        height: 87vh;
+    }
+    #lewy {
+        flex-basis: 100%;
+    }
+    #srodek {
+        flex-basis: 90%;
+    }
+    #prawy {
+        flex-basis: 10%;
+    }
+}
