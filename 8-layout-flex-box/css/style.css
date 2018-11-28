@@ -1,60 +1,105 @@
-* {
-    margin: 0;
-}
-
 body {
-    height: 100vh;
-}
-#header {
-    background-color: red;
-    text-align: center;
-    padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  color: #fff;
+  height: 50vh;
+  width: 100%;
+  text-align: center;
 }
 
-#section {
-    display: flex;
-    display: row;
-    height: 60vh;
+h3 {
+  margin: 0;
+}
+
+#header {
+  flex-basis: 100%;
+  background-color: red;
+  height: 5vh;
 }
 
 #lewy {
-    text-align: center;
-    background-color: green;
-    flex-basis: 20%;
-    
+  flex-basis: 20%;
+  background-color: green;
+  height: 40vh;
 }
 
 #srodek {
-    text-align: center;
-    background-color: aqua;
-    flex-basis: 60%;
-    font-size: 24px;
+  flex-basis: 60%;
+  background-color: aqua;
+  font-size: 20px;
 }
 
 #prawy {
-    text-align: center;
-    background-color: pink;
-    flex-basis: 20%;
+  flex-basis: 20%;
+  background-color: pink;
 }
 
 #stopka {
-    background-color: violet;
-    text-align: center;
-    padding: 5px;
+  flex-basis: 100%;
+  background-color: violet;
+  height: 5vh;
 }
 
 @media (min-width:769px) and (max-width:992px) {
-    #section {
-        flex-wrap: wrap-reverse;
-        height: 87vh;
-    }
-    #lewy {
-        flex-basis: 100%;
-    }
-    #srodek {
-        flex-basis: 90%;
-    }
-    #prawy {
-        flex-basis: 10%;
-    }
+  body {
+    height: 100vh;
+  }
+
+  #header {
+    height: 5vh;
+  }
+
+  #lewy {
+    order: 1;
+    flex-basis: 100%;
+    height: 45vh;
+  }
+
+  #srodek {
+    flex-basis: 80%;
+    height: 45vh;
+  }
+
+  #prawy {
+    flex-basis: 20%;
+    height: 45vh;
+  }
+
+  #stopka {
+    order: 2;
+    height: 5vh;
+  }
+}
+
+@media (max-width:768px) {
+  body {
+    height: 100vh;
+  }
+
+  #header {
+    height: 5vh;
+  }
+
+  #lewy {
+    flex-basis: 100%;
+    order: 1;
+    height: 30vh;
+  }
+
+  #srodek {
+    flex-basis: 100%;
+    height: 30vh;
+  }
+
+  #prawy {
+    flex-basis: 100%;
+    order: 2;
+    height: 30vh;
+  }
+
+  #stopka {
+    height: 5vh;
+    order: 3;
+  }
 }
