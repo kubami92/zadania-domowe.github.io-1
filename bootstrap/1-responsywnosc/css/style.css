@@ -1,0 +1,25 @@
+body {
+    margin-top: 100px;
+}
+hr {
+    width: 150px;
+    color: grey;
+}
+
+.napisy {
+    color: grey;
+}
+
+.kolo {
+    background-color: lightgrey;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-left: 38%;
+    margin-bottom: 10px;
+}
+
+.ikony {
+    color: orange;
+    padding-top: 15px;
+}
