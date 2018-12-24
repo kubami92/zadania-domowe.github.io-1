@@ -1,0 +1,28 @@
+hr {
+    width: 250px;
+    color: grey;
+}
+
+.szary {
+    color: grey;
+}
+
+.zmiana-tla {
+    background-color: lightgrey;
+    border: 1px solid #b8b894;
+}
+
+.zmiana-border {
+    border-bottom: 1px solid grey;
+    
+}
+
+.orange {
+    color: #e38f42;
+    padding-top: 5px;
+}
+
+.orange:hover {
+    color: black;
+    cursor: pointer;
+}
