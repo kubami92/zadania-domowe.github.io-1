@@ -14,7 +14,8 @@ hr {
 
 .zmiana-border {
     border-bottom: 1px solid grey;
-    
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .orange {
@@ -26,3 +27,8 @@ hr {
     color: black;
     cursor: pointer;
 }
+
+.card-zmiana-tla {
+    width: 100%;
+}
+
