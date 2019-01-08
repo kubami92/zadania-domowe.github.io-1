@@ -1,0 +1,145 @@
+#header {
+    background-image: url("../img/bg-pattern.png"), linear-gradient(to right, red, purple);
+    padding-bottom: 40px;
+    max-height: 100%;
+}
+
+#nav-white {
+    color: darkgrey;
+}
+
+#nav-orange {
+    color: #ff9900;
+}
+
+#phone {
+    width: 200px;
+    height: 400px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.white-text {
+    color: white;
+    font-size: 30px;
+}
+
+.przycisk-header {
+    border: 1px solid white;
+    border-radius: 40px;
+    color: white;
+    width: 200px;
+    height: 40px;
+}
+
+.header-row2 {
+    margin-top: 30px;
+}
+
+#second-content {
+    background-color: #ffbf00;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+#google-play {
+    display: inline-block;
+    padding: 5px;
+}
+
+#google-play img {
+    width: 100px;
+    height: 25px;
+}
+
+#app-store {
+    display: inline-block;
+    padding: 5px;
+}
+
+#app-store img {
+    width: 100px;
+    height: 25px;
+}
+
+#content-text {
+    font-size: 30px;
+}
+
+#content-text-small {
+    font-size: 14px;
+    color: grey;
+}
+
+#third-content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+hr {
+    width: 100px;
+}
+
+.icons-color {
+    color: #b30077;
+}
+
+#fourth-content {
+    background-image:url("../img/bg-cta.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+
+#fourth-content .white-text {
+    font-size: 40px;
+}
+
+.icon-heart {
+    color: red;
+}
+
+#fifth-content {
+    background-color: #ffbf00;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.icon-twitter {
+    color: #0084b4;
+}
+
+.icon-facebook {
+    color: #3c5a99;
+}
+
+.icon-google {
+    color: #d34836
+}
+
+#text-fifth-content {
+    font-size: 20px;
+}
+
+#footer {
+    background-color: #1a1a1a;
+    color: grey;
+    padding-top: 40px;
+}
+
+#footer p {
+    margin-bottom: 0px;
+}
+
+#footer span {
+    padding-right: 15px;
+}
+
+.fourth-content-text {
+    padding-left: 200px;
+    padding-top: 50px;
+}
