@@ -1,0 +1,120 @@
+#pierwszy {
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+#red, #blue, #green, #yellow, #black, #orange,
+#violet, #gray, #pink {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border: 3px solid;
+    border-color: white;
+    
+}
+#red1, #blue1, #green1, #yellow1, #black1, #orange1,
+#violet1, #gray1, #pink1 {
+    width: 98px;
+    height: 98px;
+    position: relative;
+    border-radius: 50px;
+    border: 1px solid;
+    border-color: black;
+    top: 50px;
+    left: 50px;
+    
+    
+}
+
+#red {
+   background-color: red;
+}
+
+#blue {
+    background-color: blue;
+    left: 200px;
+}
+
+#green {
+    background-color: green;
+    left: 400px;
+}
+
+#yellow {
+    background-color: yellow;
+    top: 200px;
+}
+
+#black {
+    background-color: black;
+    top: 200px;
+    left: 200px;
+}
+
+#orange {
+    background-color: orange;
+    top: 200px;
+    left: 400px;
+}
+
+#violet {
+    background-color: blueviolet;
+    top: 400px;
+}
+
+#gray {
+    background-color: gray;
+    top: 400px;
+    left: 200px;
+}
+
+#pink {
+    background-color: pink;
+    top: 400px;
+    left: 400px;
+}
+
+#red1 {
+    background-color: red;
+
+}
+
+#blue1 {
+    background-color: blue;
+
+}
+
+#green1 {
+    background-color: green;
+
+}
+
+#yellow1 {
+    background-color: yellow;
+}
+
+#black1 {
+    background-color: black;
+
+}
+
+#orange1 {
+    background-color: orange;
+
+}
+
+#violet1 {
+    background-color: blueviolet;
+
+}
+
+#gray1 {
+    background-color: gray;
+
+}
+
+#pink1 {
+    background-color: pink;
+
+}

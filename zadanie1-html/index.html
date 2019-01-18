@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie formularz</title>
+</head>
+<body>
+    <form action="https://formspree.io/kmika92@gmail.com" method="POST">
+        <label for="imie">Imię:</label>
+        <input type="text" name="imie">
+        <br>
+        <label for="nazwisko">Nazwisko:</label>
+        <input type="text" name="nazwisko">
+        <br>
+        <label for="mail">e-mail:</label>
+        <input type="email" name="mail">
+        <br>
+        <label for="telefon">Telefon</label>
+        <input type="number" name="telefon">
+        <br>
+        <label for="miasto">Wybierz miasto:</label>
+        <select name="miasto">
+          <option value="warszawa">Warszawa</option>
+          <option value="krakow">Krakow</option>
+          <option value="gdansk">Gdańsk</option>
+        </select>
+        <br>
+        <p>Wybierz płeć:</p>
+        <input type="radio" name="gender" value="mezczyzna"><label for="mezczyzna">Mężczyzna</label>
+        <input type="radio" name="gender" value="kobieta"><label for="kobieta">Kobieta</label>
+        <br>
+        <input type="checkbox" name="zgoda">
+        <label for="zgoda">Wyrażam zgodę</label>
+        <br>
+         <label for="wiadomosc">Wiadomość: </label>
+         <br>
+        <textarea name="wiadomosc"></textarea>
+        <br>
+        <input type="submit" value="Send">
+        
+    </form>
+</body>
+</html>
